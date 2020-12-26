@@ -10,7 +10,9 @@
 </head>
 <body>
 
-	${student} <br>
-
+	<c:forEach items="${student}" var="s">
+		${s} <br>
+	</c:forEach>
+	
 </body>
 </html>
