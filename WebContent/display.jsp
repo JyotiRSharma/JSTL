@@ -13,6 +13,7 @@
 	${label} <br>
 	
 	<c:out value="Hello world!" />
+	<c:import url="https://www.facebook.com"></c:import> <!-- Importing facebook -->
 
 </body>
 </html>
