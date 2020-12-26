@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 public class DemoServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		String name = "Krishna";
+		Student s = new Student("Jyoti", 12);
 		
-		req.setAttribute("label", name);
+		req.setAttribute("student", s);
 		RequestDispatcher rd = req.getRequestDispatcher("display.jsp");
 		rd.forward(req, res);
 	}
