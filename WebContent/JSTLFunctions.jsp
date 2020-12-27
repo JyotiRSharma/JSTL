@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>JSTL Functions</title>
 </head>
 <body>
 	<c:set var="str" value="Jyoti Ranjan is a good person" />
