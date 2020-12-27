@@ -12,6 +12,9 @@
 </head>
 <body>
 	<c:set var="str" value="Jyoti Ranjan is a good person" />
-	Length: ${fn:length(str)}
+	<c:forEach items="${fn:split(str, ' ')}" var="s">
+		<br>
+		${s}
+	</c:forEach>
  </body>
 </html>
