@@ -16,5 +16,14 @@
 		<br>
 		${s}
 	</c:forEach>
+	
+	<c:set var="str" value="Jyoti Ranjan is a good person" />
+	Index of: ${fn:indexOf(str, 'good')} <br>
+	
+	Is there: ${fn:contains(str, 'person') } <br>
+	
+	<c:if test = "${fn:endsWith(str, 'person')}">
+		You are right. Jyoti is a person.
+	</c:if>
  </body>
 </html>
